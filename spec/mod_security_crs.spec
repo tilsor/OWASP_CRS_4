@@ -39,7 +39,7 @@ done
 
 %files
 %license LICENSE
-%doc SECURITY.md SPONSORS.md CHANGES.md README.md
+#%doc SECURITY.md SPONSORS.md CHANGES.md README.md
 %config(noreplace) %{_sysconfdir}/httpd/modsecurity.d/activated_rules/*
 %config(noreplace) %{_sysconfdir}/httpd/modsecurity.d/crs-setup.conf
 %{_datarootdir}/mod_modsecurity_crs
